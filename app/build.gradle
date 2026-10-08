@@ -2,6 +2,9 @@ plugins { id 'com.android.application' }
 android {
     namespace 'com.dogra.mustang'
     compileSdk 35
+    useLibrary 'android.test.runner'
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
     defaultConfig {
         applicationId 'com.dogra.mustang'
         minSdk 26
